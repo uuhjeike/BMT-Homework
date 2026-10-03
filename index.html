@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0e11">
+<title>BMT Homework</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap"><a class="brand" href="#/">BMT <b>Homework</b></a></div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<button class="totop" id="toTop" type="button" hidden aria-label="উপরে যান">↑</button>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true">
+  <button class="m-close" id="mClose" type="button" aria-label="বন্ধ করুন">✕</button>
+  <button class="m-nav prev" id="mPrev" type="button" hidden aria-label="আগের ছবি">‹</button>
+  <button class="m-nav next" id="mNext" type="button" hidden aria-label="পরের ছবি">›</button>
+  <div class="m-body" id="mBody"></div>
+  <div class="m-cap" id="mCap"></div>
+</div>
+
+<noscript><p style="padding:24px;text-align:center">এই সাইট চালাতে JavaScript চালু করতে হবে।</p></noscript>
+<script src="script.js"></script>
+</body>
+</html>
